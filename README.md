@@ -7,6 +7,6 @@ The script focuses on areas and parts of a system like
 - Network Connections
 - System Monitoring
 - Cron jobs
-as a start.
+
 
 
