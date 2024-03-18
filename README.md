@@ -8,22 +8,22 @@
 ## B. **Aspects**
 
   ### The script focuses on areas and parts of a system like
-    - Network Connections
-    - System Monitoring
-    - Cron jobs
+      - Network Connections
+      - System Monitoring
+      - Cron jobs
 
   1. Network Connections
-    - configuring network settings, firewall parameters
-    - to control incoming & outgoing traffic
-    - restrict/implement access to specific services in compliance with the organization guidelines and rules
+     - configuring network settings, firewall parameters
+     - to control incoming & outgoing traffic
+     - restrict/implement access to specific services in compliance with the organization guidelines and rules
 
   2. System Monitoring
-    - configuring user priviledges and access according ot the org guidelines
-    - to check unauthorized access and events
+     - configuring user priviledges and access according ot the org guidelines
+     - to check unauthorized access and events
 
   3. Cron Jobs
-    - automated system backups
-    - updates and integrity checks
+     - automated system backups
+     - updates and integrity checks
 
   ### The GUI part of the project is built under the GUI toolkits for C++. 
 
