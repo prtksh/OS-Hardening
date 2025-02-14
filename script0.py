@@ -56,7 +56,7 @@ def main(stdscr):
     curses.curs_set(0)
     stdscr.clear()
     
-    main_menu = ["User Management", "Security Settings", "Check firewall", "Exit"]
+    main_menu = ["User Management", "Security Settings", "Check Firewall", "Exit"]
    
     firewall_options = ["Firewall status"]
     firewall_commands = ["ufw status"]
@@ -112,7 +112,7 @@ def main(stdscr):
             if selected == 0:
                 show_submenu(stdscr, "User Management", user_management_options, user_management_commands)
             elif selected == 1:
-                show_submenu(stdscr, "Srcurity Settings", security_options, security_commands)
+                show_submenu(stdscr, "Security Settings", security_options, security_commands)
             elif selected == 2:
                 show_firewall_status(stdscr)
             elif selected == 3:
